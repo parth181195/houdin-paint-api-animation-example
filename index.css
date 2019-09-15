@@ -1,3 +1,11 @@
-.target {
-  background-image: paint(logo)
+.logo {
+  --tick: 1000;
+  --size: 190px;
+  width: 98vw;
+  margin: auto;
+  height: 98vh;
+  --animation-tick: 2000;
+  border: 2px solid blueviolet;
+  background-image: paint(logo);
+  background-size: calc(var(--size)*2) var(--size)
 }
